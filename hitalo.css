@@ -1,0 +1,54 @@
+@media screen and (max-width:768px) {
+   
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.carregar {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    button {
+        width: 120px;
+        margin-right: 50px;
+        background-color: gray;
+    }
+
+    div.ListDiv {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:769px) {
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div.carregar {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    button {
+        margin-right: 50px;
+        background-color: gray;
+    }
+
+    div.ListDiv {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
